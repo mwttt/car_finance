@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/car_finance.iml" filepath="$PROJECT_DIR$/car_finance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/car_finance_common/car_finance_common.iml" filepath="$PROJECT_DIR$/car_finance_common/car_finance_common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/car_finance_consumer/car_finance_consumer.iml" filepath="$PROJECT_DIR$/car_finance_consumer/car_finance_consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/car_finance_service/car_finance_service.iml" filepath="$PROJECT_DIR$/car_finance_service/car_finance_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/car_finance_service_api/car_finance_service_api.iml" filepath="$PROJECT_DIR$/car_finance_service_api/car_finance_service_api.iml" />
+    </modules>
+  </component>
+</project>
