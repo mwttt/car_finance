@@ -2,11 +2,19 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/bank_balance_common/bank_balance_common.iml" filepath="$PROJECT_DIR$/bank_balance_common/bank_balance_common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bank_balance_cousmen/bank_balance_cousmen.iml" filepath="$PROJECT_DIR$/bank_balance_cousmen/bank_balance_cousmen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bank_balance_service/bank_balance_service.iml" filepath="$PROJECT_DIR$/bank_balance_service/bank_balance_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bank_balance_service_api/bank_balance_service_api.iml" filepath="$PROJECT_DIR$/bank_balance_service_api/bank_balance_service_api.iml" />
       <module fileurl="file://$PROJECT_DIR$/car_finance.iml" filepath="$PROJECT_DIR$/car_finance.iml" />
       <module fileurl="file://$PROJECT_DIR$/car_finance_common/car_finance_common.iml" filepath="$PROJECT_DIR$/car_finance_common/car_finance_common.iml" />
       <module fileurl="file://$PROJECT_DIR$/car_finance_consumer/car_finance_consumer.iml" filepath="$PROJECT_DIR$/car_finance_consumer/car_finance_consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/car_finance_service/car_finance_service.iml" filepath="$PROJECT_DIR$/car_finance_service/car_finance_service.iml" />
       <module fileurl="file://$PROJECT_DIR$/car_finance_service_api/car_finance_service_api.iml" filepath="$PROJECT_DIR$/car_finance_service_api/car_finance_service_api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user_istration_common/user_istration_common.iml" filepath="$PROJECT_DIR$/user_istration_common/user_istration_common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user_istration_customer/user_istration_customer.iml" filepath="$PROJECT_DIR$/user_istration_customer/user_istration_customer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user_istration_service/user_istration_service.iml" filepath="$PROJECT_DIR$/user_istration_service/user_istration_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user_istration_service_api/user_istration_service_api.iml" filepath="$PROJECT_DIR$/user_istration_service_api/user_istration_service_api.iml" />
     </modules>
   </component>
 </project>

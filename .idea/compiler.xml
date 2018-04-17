@@ -6,18 +6,34 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="bank_balance_common" />
+        <module name="bank_balance_cousmen" />
+        <module name="bank_balance_service" />
+        <module name="bank_balance_service_api" />
         <module name="car_finance_common" />
         <module name="car_finance_consumer" />
         <module name="car_finance_service" />
         <module name="car_finance_service_api" />
+        <module name="user_istration_common" />
+        <module name="user_istration_customer" />
+        <module name="user_istration_service" />
+        <module name="user_istration_service_api" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="bank_balance_common" target="1.7" />
+      <module name="bank_balance_cousmen" target="1.7" />
+      <module name="bank_balance_service" target="1.7" />
+      <module name="bank_balance_service_api" target="1.7" />
       <module name="car_finance" target="1.5" />
       <module name="car_finance_common" target="1.7" />
       <module name="car_finance_consumer" target="1.7" />
       <module name="car_finance_service" target="1.7" />
       <module name="car_finance_service_api" target="1.7" />
+      <module name="user_istration_common" target="1.7" />
+      <module name="user_istration_customer" target="1.7" />
+      <module name="user_istration_service" target="1.7" />
+      <module name="user_istration_service_api" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
