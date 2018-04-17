@@ -1,9 +1,11 @@
 package com.jk.finance.service.impl;
 
 
+import com.jk.finance.entity.Bank;
 import com.jk.finance.entity.UserDo;
 import com.jk.finance.mapper.TaskMapper;
 import com.jk.finance.service.UserService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
@@ -14,6 +16,19 @@ public class UserServiceImpl implements UserService{
     @Resource
     private TaskMapper  taskMapper;
 
+    @Override
+    public UserDo queryUser(String userName) {
+
+        return taskMapper.queryUser(userName);
+    }
+
+    @Override
+    public Bank queryBankCard(String userId) {
+
+
+        return taskMapper.queryBankCard(userId);
+    }
+
     /**
      * @Transactional(propagation=Propagation.REQUIRED, rollbackFor=Exception.class)
      * 在增删改方法上放此注解  表名事务的传播特性required  有异常回滚事务
@@ -23,11 +38,12 @@ public class UserServiceImpl implements UserService{
      */
     //@Transactional(propagation=Propagation.REQUIRED, rollbackFor=Exception.class)
 
-    @Override
-    public UserDo queryUser() {
+
+ /*   public UserDo queryUser() {
 
         System.out.println("到达生产者基地");
+
         UserDo userDo = taskMapper.queryUser(1);
         return userDo;
-    }
+    }*/
 }

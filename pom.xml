@@ -13,6 +13,7 @@
         <module>car_finance_service</module>
         <module>car_finance_common</module>
         <module>car_finance_service_api</module>
+<<<<<<< HEAD
         <module>bank_balance_common</module>
         <module>bank_balance_cousmen</module>
         <module>bank_balance_service</module>
@@ -21,6 +22,10 @@
         <module>user_istration_customer</module>
         <module>user_istration_service</module>
         <module>user_istration_service_api</module>
+=======
+
+
+>>>>>>> 760ba2302fb84b4a7041d2be0f50fdc8fb504ca5
     </modules>
 
 

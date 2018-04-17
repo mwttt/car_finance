@@ -1,19 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <resourceExtensions />
     <annotationProcessing>
-      <profile name="Maven default annotation processors profile" enabled="true">
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+<<<<<<< HEAD
         <module name="bank_balance_common" />
         <module name="bank_balance_cousmen" />
         <module name="bank_balance_service" />
         <module name="bank_balance_service_api" />
+=======
+        <processorPath useClasspath="true" />
+>>>>>>> 760ba2302fb84b4a7041d2be0f50fdc8fb504ca5
         <module name="car_finance_common" />
         <module name="car_finance_consumer" />
         <module name="car_finance_service" />
         <module name="car_finance_service_api" />
+<<<<<<< HEAD
         <module name="user_istration_common" />
         <module name="user_istration_customer" />
         <module name="user_istration_service" />
@@ -25,15 +34,26 @@
       <module name="bank_balance_cousmen" target="1.7" />
       <module name="bank_balance_service" target="1.7" />
       <module name="bank_balance_service_api" target="1.7" />
+=======
+        <module name="car_user_identification" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.7">
+>>>>>>> 760ba2302fb84b4a7041d2be0f50fdc8fb504ca5
       <module name="car_finance" target="1.5" />
       <module name="car_finance_common" target="1.7" />
       <module name="car_finance_consumer" target="1.7" />
       <module name="car_finance_service" target="1.7" />
       <module name="car_finance_service_api" target="1.7" />
+<<<<<<< HEAD
       <module name="user_istration_common" target="1.7" />
       <module name="user_istration_customer" target="1.7" />
       <module name="user_istration_service" target="1.7" />
       <module name="user_istration_service_api" target="1.7" />
+=======
+      <module name="rabbit_customer" target="1.7" />
+      <module name="rabbit_provider" target="1.7" />
+>>>>>>> 760ba2302fb84b4a7041d2be0f50fdc8fb504ca5
     </bytecodeTargetLevel>
   </component>
 </project>
