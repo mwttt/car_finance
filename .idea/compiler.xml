@@ -1,23 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <resourceExtensions />
     <annotationProcessing>
-      <profile name="Maven default annotation processors profile" enabled="true">
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
         <module name="car_finance_common" />
         <module name="car_finance_consumer" />
         <module name="car_finance_service" />
         <module name="car_finance_service_api" />
+        <module name="car_user_identification" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="1.7">
       <module name="car_finance" target="1.5" />
       <module name="car_finance_common" target="1.7" />
       <module name="car_finance_consumer" target="1.7" />
       <module name="car_finance_service" target="1.7" />
       <module name="car_finance_service_api" target="1.7" />
+      <module name="rabbit_customer" target="1.7" />
+      <module name="rabbit_provider" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

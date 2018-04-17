@@ -1,5 +1,6 @@
 package com.jk.finance.mapper;
 
+import com.jk.finance.entity.Bank;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
@@ -17,6 +18,9 @@ public interface TaskMapper {
 	@Select("select  filename  from  t_ceshic  where domainid = #{id}")
 	String queryPictureByDoNameID(@Param("id") String id);*/
 
-	@Select("select  *  from  t_user  where userid = #{i}")
-	UserDo queryUser(@Param("i") int i);
+	@Select("select  *  from  t_user  where userName = #{userName}")
+	UserDo queryUser(@Param("userName") String  userName);
+
+	@Select("select  *  from  t_banks  where userId = #{userId}")
+	Bank queryBankCard(String userId);
 }
